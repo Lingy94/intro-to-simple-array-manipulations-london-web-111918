@@ -39,7 +39,10 @@ def using_flatten(array)
 end
 
 def using_delete_at(array, int)
- for int
+ for i in 0..int
+ if array[i] == int
+   return array.delete(i)
+   
 end
 
 def using_delete(array, string)
