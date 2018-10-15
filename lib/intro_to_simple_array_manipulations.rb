@@ -15,7 +15,7 @@ def pop_with_args(array)
 end
 
 def using_shift(array)
-  array.shift
+  return array.shift
 end
 
 def shift_with_args(array)
@@ -23,24 +23,25 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-  a.concat(b)
+  return a.concat(b)
 end
 
 def using_insert(array, element)
-  array.insert(4, element)
+ return array.insert(4, element)
 end
 
 def using_uniq(array)
-  array.uniq
+ return array.uniq
 end
 
 def using_flatten(array)
-  array.flatten
+ return array.flatten
 end
 
 def using_delete_at(array, int)
-  array.delete(int)
+ return array.delete(int)
 end
 
 def using_delete(array, stirng)
-  array.delete(string)
+ return array.delete(string)
+ end
